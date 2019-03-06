@@ -1,0 +1,8 @@
+def krzyzyk(n): # function that makes cross made of five squares with side of set length
+   for i in range(n):
+      print ((n-1)*" ",n*"*",(n-1)*" ")
+   for i in range(n):
+      print ((3*n)*"*")
+   for i in range(n):
+      print ((n-1)*" ",n*"*",(n-1)*" ")
+      
